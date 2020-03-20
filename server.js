@@ -39,7 +39,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexPage);
 
-const port = process.env.Port || 5000;
+const port = process.env.Port || 3000;
 
 app.listen(port, () => {
     console.log(`The app is running on port ${port}` );
